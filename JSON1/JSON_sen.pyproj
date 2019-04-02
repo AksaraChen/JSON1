@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dbdcf238-6882-4004-9a87-73fc6a92ca8e</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>JSON1.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>JSON_sen.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>JSON1</Name>
+    <Name>JSON_sen</Name>
     <RootNamespace>JSON1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="JSON1.py" />
+    <Compile Include="JSON_sen.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
